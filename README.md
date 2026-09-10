@@ -98,3 +98,9 @@ jp-medical-registry changes --month 2026-08 --output data/processed/monthly
 ## ライセンス
 
 MITはオリジナルのプログラムに適用します。取得資料には各公開元の利用条件が適用されます。旧WikibaseSyncのコードはコピーしていません。
+
+### 確認済みWikidata候補との接続
+
+`python -m jp_medical_registry.match_cli sample.csv candidates.json --dataset jp-medical-registry --output bundle.json`
+
+候補ファイルは10桁コードをキー、Wikidata Entity JSONの配列を値とする辞書です。事前にレビューした候補を渡します。コードと正規化名称が一致し、郵便番号・電話番号に矛盾がない単一候補のみQIDを付けます。名称のみの一致やコード重複は要確認とし、候補未取得は未照合として保存します。判定根拠とWikidata revisionをbundleに残します。網羅的なWikidata検索や曖昧名寄せはまだ行いません。
