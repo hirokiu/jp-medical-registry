@@ -1,3 +1,7 @@
+# Historical 0.1 design
+
+This file records the initial prototype. For implemented 0.2 behavior, see [monthly design](monthly-design.md) and the root README.
+
 # Architecture and implementation status
 
 jp-medical-registry → versioned JSON bundle → wikibase-registry-sync → backend.

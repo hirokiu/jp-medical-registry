@@ -62,13 +62,20 @@ def convert_csv(path, namespace):
             claims = [{"property": "P13179", "datatype": "external-id", "value": identifier},
                       {"property": "P1448", "datatype": "monolingualtext",
                        "value": {"language": "ja", "text": row["name"]}}]
+            if row.get("postal_code"):
+                claims.append({"property":"P281","datatype":"string","value":row["postal_code"]})
+            if row.get("address"):
+                claims.append({"property":"P6375","datatype":"monolingualtext","value":{"language":"ja","text":row["address"]}})
+            phone = re.sub(r"[-()\s]", "", unicodedata.normalize("NFKC", row.get("phone", "")))
+            if re.fullmatch(r"0[0-9]{9,10}",phone):
+                claims.append({"property":"P1329","datatype":"string","value":"+81"+phone[1:]})
             for claim in claims:
                 claim["references"] = [[{"property": "P854", "datatype": "url", "value": row["source_url"]}]]
             qid = row.get("wikidata_qid", "")
             if qid and not re.fullmatch(r"Q[1-9][0-9]*", qid): raise ValueError("invalid QID")
             entities.append(dict(key=identifier, labels={"ja": row["name"]}, statements=claims,
                                  wikidata_qid=qid or None,
-                                 raw={k: row[k] for k in required}))
+                                 raw={k: row[k] for k in sorted(required)}))
     return {"schema_version": "0.1", "dataset": namespace, "entities": entities}
 
 def diff(previous, current):

@@ -1,0 +1,1067 @@
+{
+  "month": "2026-09",
+  "regions": [
+    "chugoku",
+    "hokkaido",
+    "kanto",
+    "kinki",
+    "kyushu",
+    "shikoku",
+    "tohoku",
+    "tokai"
+  ],
+  "status": "complete",
+  "parser_version": "code-content-xlsx/0.2",
+  "created_at": "2026-09-10T12:53:35.655152+00:00",
+  "raw_records": 224517,
+  "institutions": 224517,
+  "conflicting_identifiers": 0,
+  "coverage": [
+    [
+      "01",
+      "医科"
+    ],
+    [
+      "01",
+      "歯科"
+    ],
+    [
+      "01",
+      "薬局"
+    ],
+    [
+      "02",
+      "医科"
+    ],
+    [
+      "02",
+      "歯科"
+    ],
+    [
+      "02",
+      "薬局"
+    ],
+    [
+      "03",
+      "医科"
+    ],
+    [
+      "03",
+      "歯科"
+    ],
+    [
+      "03",
+      "薬局"
+    ],
+    [
+      "04",
+      "医科"
+    ],
+    [
+      "04",
+      "歯科"
+    ],
+    [
+      "04",
+      "薬局"
+    ],
+    [
+      "05",
+      "医科"
+    ],
+    [
+      "05",
+      "歯科"
+    ],
+    [
+      "05",
+      "薬局"
+    ],
+    [
+      "06",
+      "医科"
+    ],
+    [
+      "06",
+      "歯科"
+    ],
+    [
+      "06",
+      "薬局"
+    ],
+    [
+      "07",
+      "医科"
+    ],
+    [
+      "07",
+      "歯科"
+    ],
+    [
+      "07",
+      "薬局"
+    ],
+    [
+      "08",
+      "医科"
+    ],
+    [
+      "08",
+      "歯科"
+    ],
+    [
+      "08",
+      "薬局"
+    ],
+    [
+      "09",
+      "医科"
+    ],
+    [
+      "09",
+      "歯科"
+    ],
+    [
+      "09",
+      "薬局"
+    ],
+    [
+      "10",
+      "医科"
+    ],
+    [
+      "10",
+      "歯科"
+    ],
+    [
+      "10",
+      "薬局"
+    ],
+    [
+      "11",
+      "医科"
+    ],
+    [
+      "11",
+      "歯科"
+    ],
+    [
+      "11",
+      "薬局"
+    ],
+    [
+      "12",
+      "医科"
+    ],
+    [
+      "12",
+      "歯科"
+    ],
+    [
+      "12",
+      "薬局"
+    ],
+    [
+      "13",
+      "医科"
+    ],
+    [
+      "13",
+      "歯科"
+    ],
+    [
+      "13",
+      "薬局"
+    ],
+    [
+      "14",
+      "医科"
+    ],
+    [
+      "14",
+      "歯科"
+    ],
+    [
+      "14",
+      "薬局"
+    ],
+    [
+      "15",
+      "医科"
+    ],
+    [
+      "15",
+      "歯科"
+    ],
+    [
+      "15",
+      "薬局"
+    ],
+    [
+      "16",
+      "医科"
+    ],
+    [
+      "16",
+      "歯科"
+    ],
+    [
+      "16",
+      "薬局"
+    ],
+    [
+      "17",
+      "医科"
+    ],
+    [
+      "17",
+      "歯科"
+    ],
+    [
+      "17",
+      "薬局"
+    ],
+    [
+      "18",
+      "医科"
+    ],
+    [
+      "18",
+      "歯科"
+    ],
+    [
+      "18",
+      "薬局"
+    ],
+    [
+      "19",
+      "医科"
+    ],
+    [
+      "19",
+      "歯科"
+    ],
+    [
+      "19",
+      "薬局"
+    ],
+    [
+      "20",
+      "医科"
+    ],
+    [
+      "20",
+      "歯科"
+    ],
+    [
+      "20",
+      "薬局"
+    ],
+    [
+      "21",
+      "医科"
+    ],
+    [
+      "21",
+      "歯科"
+    ],
+    [
+      "21",
+      "薬局"
+    ],
+    [
+      "22",
+      "医科"
+    ],
+    [
+      "22",
+      "歯科"
+    ],
+    [
+      "22",
+      "薬局"
+    ],
+    [
+      "23",
+      "医科"
+    ],
+    [
+      "23",
+      "歯科"
+    ],
+    [
+      "23",
+      "薬局"
+    ],
+    [
+      "24",
+      "医科"
+    ],
+    [
+      "24",
+      "歯科"
+    ],
+    [
+      "24",
+      "薬局"
+    ],
+    [
+      "25",
+      "医科"
+    ],
+    [
+      "25",
+      "歯科"
+    ],
+    [
+      "25",
+      "薬局"
+    ],
+    [
+      "26",
+      "医科"
+    ],
+    [
+      "26",
+      "歯科"
+    ],
+    [
+      "26",
+      "薬局"
+    ],
+    [
+      "27",
+      "医科"
+    ],
+    [
+      "27",
+      "歯科"
+    ],
+    [
+      "27",
+      "薬局"
+    ],
+    [
+      "28",
+      "医科"
+    ],
+    [
+      "28",
+      "歯科"
+    ],
+    [
+      "28",
+      "薬局"
+    ],
+    [
+      "29",
+      "医科"
+    ],
+    [
+      "29",
+      "歯科"
+    ],
+    [
+      "29",
+      "薬局"
+    ],
+    [
+      "30",
+      "医科"
+    ],
+    [
+      "30",
+      "歯科"
+    ],
+    [
+      "30",
+      "薬局"
+    ],
+    [
+      "31",
+      "医科"
+    ],
+    [
+      "31",
+      "歯科"
+    ],
+    [
+      "31",
+      "薬局"
+    ],
+    [
+      "32",
+      "医科"
+    ],
+    [
+      "32",
+      "歯科"
+    ],
+    [
+      "32",
+      "薬局"
+    ],
+    [
+      "33",
+      "医科"
+    ],
+    [
+      "33",
+      "歯科"
+    ],
+    [
+      "33",
+      "薬局"
+    ],
+    [
+      "34",
+      "医科"
+    ],
+    [
+      "34",
+      "歯科"
+    ],
+    [
+      "34",
+      "薬局"
+    ],
+    [
+      "35",
+      "医科"
+    ],
+    [
+      "35",
+      "歯科"
+    ],
+    [
+      "35",
+      "薬局"
+    ],
+    [
+      "36",
+      "医科"
+    ],
+    [
+      "36",
+      "歯科"
+    ],
+    [
+      "36",
+      "薬局"
+    ],
+    [
+      "37",
+      "医科"
+    ],
+    [
+      "37",
+      "歯科"
+    ],
+    [
+      "37",
+      "薬局"
+    ],
+    [
+      "38",
+      "医科"
+    ],
+    [
+      "38",
+      "歯科"
+    ],
+    [
+      "38",
+      "薬局"
+    ],
+    [
+      "39",
+      "医科"
+    ],
+    [
+      "39",
+      "歯科"
+    ],
+    [
+      "39",
+      "薬局"
+    ],
+    [
+      "40",
+      "医科"
+    ],
+    [
+      "40",
+      "歯科"
+    ],
+    [
+      "40",
+      "薬局"
+    ],
+    [
+      "41",
+      "医科"
+    ],
+    [
+      "41",
+      "歯科"
+    ],
+    [
+      "41",
+      "薬局"
+    ],
+    [
+      "42",
+      "医科"
+    ],
+    [
+      "42",
+      "歯科"
+    ],
+    [
+      "42",
+      "薬局"
+    ],
+    [
+      "43",
+      "医科"
+    ],
+    [
+      "43",
+      "歯科"
+    ],
+    [
+      "43",
+      "薬局"
+    ],
+    [
+      "44",
+      "医科"
+    ],
+    [
+      "44",
+      "歯科"
+    ],
+    [
+      "44",
+      "薬局"
+    ],
+    [
+      "45",
+      "医科"
+    ],
+    [
+      "45",
+      "歯科"
+    ],
+    [
+      "45",
+      "薬局"
+    ],
+    [
+      "46",
+      "医科"
+    ],
+    [
+      "46",
+      "歯科"
+    ],
+    [
+      "46",
+      "薬局"
+    ],
+    [
+      "47",
+      "医科"
+    ],
+    [
+      "47",
+      "歯科"
+    ],
+    [
+      "47",
+      "薬局"
+    ]
+  ],
+  "missing_coverage": [],
+  "source_results": [
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499337.xlsx",
+      "status": "parsed",
+      "records": 519
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499339.xlsx",
+      "status": "parsed",
+      "records": 2729
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499341.xlsx",
+      "status": "parsed",
+      "records": 2627
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499343.xlsx",
+      "status": "parsed",
+      "records": 2255
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tohoku/shitei-touhoku-ika-r0809.xlsx",
+      "status": "parsed",
+      "records": 5537
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tohoku/shitei-touhoku-shika-r0809.xlsx",
+      "status": "parsed",
+      "records": 3547
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tohoku/shitei-touhoku-yakkyoku-r0809.xlsx",
+      "status": "parsed",
+      "records": 4422
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shitei_ika_r0809.zip",
+      "status": "parsed",
+      "records": 36451
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shitei_shika_r0809.zip",
+      "status": "parsed",
+      "records": 27319
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shitei_yakkyoku_r0809.zip",
+      "status": "parsed",
+      "records": 23132
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/2609-01-01.zip",
+      "status": "parsed",
+      "records": 11815
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/2609-01-03.zip",
+      "status": "parsed",
+      "records": 7832
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/2609-01-04.zip",
+      "status": "parsed",
+      "records": 8530
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kinki/2026.9_kikanzentai_ika.zip",
+      "status": "parsed",
+      "records": 19821
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kinki/2026.9_kikanzentai_sika.zip",
+      "status": "parsed",
+      "records": 11274
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kinki/2026.9_kikanzentai_yakkyoku.zip",
+      "status": "parsed",
+      "records": 10640
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/000500018.zip",
+      "status": "parsed",
+      "records": 5885
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/000500019.zip",
+      "status": "parsed",
+      "records": 3485
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/000500020.zip",
+      "status": "parsed",
+      "records": 3699
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/shikoku/000499483.zip",
+      "status": "parsed",
+      "records": 2972
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/shikoku/000499485.zip",
+      "status": "parsed",
+      "records": 1777
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/shikoku/000499487.zip",
+      "status": "parsed",
+      "records": 1905
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500310.zip",
+      "status": "parsed",
+      "records": 10432
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500311.zip",
+      "status": "parsed",
+      "records": 1546
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500315.zip",
+      "status": "parsed",
+      "records": 2506
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500316.zip",
+      "status": "parsed",
+      "records": 3080
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500317.zip",
+      "status": "parsed",
+      "records": 1955
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500318.zip",
+      "status": "parsed",
+      "records": 1885
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500321.zip",
+      "status": "parsed",
+      "records": 2867
+    },
+    {
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500320.zip",
+      "status": "parsed",
+      "records": 2073
+    }
+  ],
+  "acquisition_errors": [],
+  "counts_by_prefecture_kind": {
+    "01/医科": 3248,
+    "01/歯科": 2627,
+    "01/薬局": 2255,
+    "02/医科": 703,
+    "02/歯科": 449,
+    "02/薬局": 602,
+    "03/医科": 745,
+    "03/歯科": 516,
+    "03/薬局": 626,
+    "04/医科": 1554,
+    "04/歯科": 989,
+    "04/薬局": 1210,
+    "05/医科": 627,
+    "05/歯科": 376,
+    "05/薬局": 497,
+    "06/医科": 741,
+    "06/歯科": 436,
+    "06/薬局": 594,
+    "07/医科": 1167,
+    "07/歯科": 781,
+    "07/薬局": 893,
+    "08/医科": 1566,
+    "08/歯科": 1314,
+    "08/薬局": 1334,
+    "09/医科": 1287,
+    "09/歯科": 943,
+    "09/薬局": 955,
+    "10/医科": 1390,
+    "10/歯科": 926,
+    "10/薬局": 981,
+    "11/医科": 4361,
+    "11/歯科": 3449,
+    "11/薬局": 3253,
+    "12/医科": 3718,
+    "12/歯科": 3122,
+    "12/薬局": 2672,
+    "13/医科": 13954,
+    "13/歯科": 10292,
+    "13/薬局": 7125,
+    "14/医科": 6818,
+    "14/歯科": 4837,
+    "14/薬局": 4208,
+    "15/医科": 1322,
+    "15/歯科": 1092,
+    "15/薬局": 1130,
+    "16/医科": 693,
+    "16/歯科": 413,
+    "16/薬局": 509,
+    "17/医科": 780,
+    "17/歯科": 455,
+    "17/薬局": 560,
+    "18/医科": 510,
+    "18/歯科": 296,
+    "18/薬局": 326,
+    "19/医科": 644,
+    "19/歯科": 414,
+    "19/薬局": 471,
+    "20/医科": 1391,
+    "20/歯科": 930,
+    "20/薬局": 1003,
+    "21/医科": 1380,
+    "21/歯科": 962,
+    "21/薬局": 1036,
+    "22/医科": 2439,
+    "22/歯科": 1663,
+    "22/薬局": 1888,
+    "23/医科": 5212,
+    "23/歯科": 3555,
+    "23/薬局": 3671,
+    "24/医科": 1311,
+    "24/歯科": 784,
+    "24/薬局": 866,
+    "25/医科": 993,
+    "25/歯科": 554,
+    "25/薬局": 674,
+    "26/医科": 2378,
+    "26/歯科": 1214,
+    "26/薬局": 1182,
+    "27/医科": 8854,
+    "27/歯科": 5240,
+    "27/薬局": 4668,
+    "28/医科": 5028,
+    "28/歯科": 2827,
+    "28/薬局": 2758,
+    "29/医科": 1117,
+    "29/歯科": 667,
+    "29/薬局": 569,
+    "30/医科": 941,
+    "30/歯科": 476,
+    "30/薬局": 463,
+    "31/医科": 430,
+    "31/歯科": 238,
+    "31/薬局": 265,
+    "32/医科": 581,
+    "32/歯科": 244,
+    "32/薬局": 337,
+    "33/医科": 1408,
+    "33/歯科": 976,
+    "33/薬局": 833,
+    "34/医科": 2383,
+    "34/歯科": 1422,
+    "34/薬局": 1516,
+    "35/医科": 1083,
+    "35/歯科": 605,
+    "35/薬局": 748,
+    "36/医科": 652,
+    "36/歯科": 397,
+    "36/薬局": 381,
+    "37/医科": 749,
+    "37/歯科": 444,
+    "37/薬局": 520,
+    "38/医科": 1065,
+    "38/歯科": 617,
+    "38/薬局": 624,
+    "39/医科": 506,
+    "39/歯科": 319,
+    "39/薬局": 380,
+    "40/医科": 4536,
+    "40/歯科": 2934,
+    "40/薬局": 2962,
+    "41/医科": 662,
+    "41/歯科": 387,
+    "41/薬局": 497,
+    "42/医科": 1157,
+    "42/歯科": 650,
+    "42/薬局": 699,
+    "43/医科": 1366,
+    "43/歯科": 825,
+    "43/薬局": 889,
+    "44/医科": 917,
+    "44/歯科": 471,
+    "44/薬局": 567,
+    "45/医科": 837,
+    "45/歯科": 476,
+    "45/薬局": 572,
+    "46/医科": 1270,
+    "46/歯科": 760,
+    "46/薬局": 837,
+    "47/医科": 919,
+    "47/歯科": 596,
+    "47/薬局": 558
+  },
+  "scope": "primary code-content snapshots; no inferred closures or Wikibase writes",
+  "scope_note": "主一覧のみ。併設補助一覧を同定・統合した結果ではない。全属性の意味検証ではない。",
+  "raw_source_manifest": [
+    {
+      "region": "hokkaido",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499337.xlsx",
+      "sha256": "cf07b0a8db9c38f76efa10ee4ca0cf4d281e47fe77405c005b51300f9ff6596b",
+      "retrieved_at": "2026-09-10T12:46:36.610670+00:00"
+    },
+    {
+      "region": "hokkaido",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499339.xlsx",
+      "sha256": "c4509b687f9ec16e6a7bf417bde1ceee5379587d30b889880a0040d04dabf8bb",
+      "retrieved_at": "2026-09-10T12:46:36.783855+00:00"
+    },
+    {
+      "region": "hokkaido",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499341.xlsx",
+      "sha256": "11bf8e360b351945ada3344accbd0053016ddddcaf99f43fec68723d7723711a",
+      "retrieved_at": "2026-09-10T12:46:37.046927+00:00"
+    },
+    {
+      "region": "hokkaido",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/hokkaido/000499343.xlsx",
+      "sha256": "11a069f2983fc9d33f9cde8849aa9510f296704650429132317003bacd2482ba",
+      "retrieved_at": "2026-09-10T12:46:37.220198+00:00"
+    },
+    {
+      "region": "tohoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tohoku/shitei-touhoku-ika-r0809.xlsx",
+      "sha256": "9b38db9be78bdf98ae214b246b9512d43d07920131f1e2c0cb53bb2226dbdb20",
+      "retrieved_at": "2026-09-10T12:46:37.650167+00:00"
+    },
+    {
+      "region": "tohoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tohoku/shitei-touhoku-shika-r0809.xlsx",
+      "sha256": "5feebcd701aa92cc238771420cd68fc311385e4b1330bf998cccd9c52251eede",
+      "retrieved_at": "2026-09-10T12:46:37.831873+00:00"
+    },
+    {
+      "region": "tohoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tohoku/shitei-touhoku-yakkyoku-r0809.xlsx",
+      "sha256": "0290228f56a01fa306c42d437dfff40d5d0ae37b8ccd6cc7648a24e5d2ae8d39",
+      "retrieved_at": "2026-09-10T12:46:38.153813+00:00"
+    },
+    {
+      "region": "kanto",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shitei_ika_r0809.zip",
+      "sha256": "0ff92e681bfa11a45216ce7a5764acb79a3a8c08aedf54a0d30fe9f037a1126e",
+      "retrieved_at": "2026-09-10T12:46:39.281219+00:00"
+    },
+    {
+      "region": "kanto",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shitei_shika_r0809.zip",
+      "sha256": "6ef116dc621f72f55c7925c440ce3931742c9ab61e171c2ec35d993f5db76dc3",
+      "retrieved_at": "2026-09-10T12:46:40.034414+00:00"
+    },
+    {
+      "region": "kanto",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shitei_yakkyoku_r0809.zip",
+      "sha256": "7945505d92e119bdb7c263d4de2fefe9a2979737838cb4f38c48aae225fbb757",
+      "retrieved_at": "2026-09-10T12:46:40.612078+00:00"
+    },
+    {
+      "region": "tokai",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/2609-01-01.zip",
+      "sha256": "9541e0585852c3b57747df7291f7ce747343ad4c1d6907623349637f94320da1",
+      "retrieved_at": "2026-09-10T12:46:41.082078+00:00"
+    },
+    {
+      "region": "tokai",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/2609-01-03.zip",
+      "sha256": "eeca18b41332b1db1da05b481ab44607c470fe58b2e31229c812a36b9ce1fad4",
+      "retrieved_at": "2026-09-10T12:46:41.324381+00:00"
+    },
+    {
+      "region": "tokai",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/2609-01-04.zip",
+      "sha256": "ee73c3c1e42c7363628180861c5debdf9965473822e149d78f816a142296ea3a",
+      "retrieved_at": "2026-09-10T12:46:41.820250+00:00"
+    },
+    {
+      "region": "kinki",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kinki/2026.9_kikanzentai_ika.zip",
+      "sha256": "7cfaa6b55dbf601a4103919c2c595371f51c42666d2ca71ff359277a85f67fbc",
+      "retrieved_at": "2026-09-10T12:46:42.525412+00:00"
+    },
+    {
+      "region": "kinki",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kinki/2026.9_kikanzentai_sika.zip",
+      "sha256": "d8ad96e686ec6024cc601544af435e9fc8ab0fe5637958dd12488ebe80f9b97e",
+      "retrieved_at": "2026-09-10T12:46:42.900824+00:00"
+    },
+    {
+      "region": "kinki",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kinki/2026.9_kikanzentai_yakkyoku.zip",
+      "sha256": "cd54fc59c0ed3483cde3b779cb074d58f7de9dca89ee866a64fd355750d0a51f",
+      "retrieved_at": "2026-09-10T12:46:43.246397+00:00"
+    },
+    {
+      "region": "chugoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/000500018.zip",
+      "sha256": "d28cf2ab0c8b1fb23f6b468d0b1a5f43008e8e83cc82123ef0cb139326b0b938",
+      "retrieved_at": "2026-09-10T12:46:43.706597+00:00"
+    },
+    {
+      "region": "chugoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/000500019.zip",
+      "sha256": "a89c72f41e0342c7f40dad576541c27b4e93c348db4197035b1047e15ca99a1d",
+      "retrieved_at": "2026-09-10T12:46:43.919244+00:00"
+    },
+    {
+      "region": "chugoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/000500020.zip",
+      "sha256": "89a633184b1fac0625db2b11e74bbbe2f4b496084a25bdf3eeb612cfa1641086",
+      "retrieved_at": "2026-09-10T12:46:44.086545+00:00"
+    },
+    {
+      "region": "shikoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/shikoku/000499483.zip",
+      "sha256": "3336ae154ac336126bd2394dc2e73f23b730fde79c4e24ec00a188a7b396d10d",
+      "retrieved_at": "2026-09-10T12:46:44.528201+00:00"
+    },
+    {
+      "region": "shikoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/shikoku/000499485.zip",
+      "sha256": "9c81ed9fc92d3cac5cd6d336e81fdf97abb9f26e6c4c3e5d857d2d352b042076",
+      "retrieved_at": "2026-09-10T12:46:44.756177+00:00"
+    },
+    {
+      "region": "shikoku",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/shikoku/000499487.zip",
+      "sha256": "536e11ea7520c738614c49d0e3ec81a82f65dafbc4685d2a48bc1ee5cb71ffc6",
+      "retrieved_at": "2026-09-10T12:46:44.900595+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500310.zip",
+      "sha256": "2ddcc7bfa2f5592c76b764befc3b9a6850f6b232bf3e1e7b6c67f6205380caa1",
+      "retrieved_at": "2026-09-10T12:46:45.581844+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500311.zip",
+      "sha256": "da51a06f38a938e1da705d947788c7bca6630aff6852de67a2977846fb41b7c1",
+      "retrieved_at": "2026-09-10T12:46:45.816030+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500315.zip",
+      "sha256": "82e5843d79d322a4d98eebc10131233856f6f13aedd8eb4b3d498da551ad8fd7",
+      "retrieved_at": "2026-09-10T12:46:45.954576+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500316.zip",
+      "sha256": "e2b125abe46dd0af6ec0174f4a75ccd14476d314cf3f87c39a04432a9a9970f7",
+      "retrieved_at": "2026-09-10T12:46:46.113723+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500317.zip",
+      "sha256": "1daaaaf67243ca591ecf12cb8bedad0b71e31fa5614c6fb29b3bf98b4b56f25f",
+      "retrieved_at": "2026-09-10T12:46:46.374724+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500318.zip",
+      "sha256": "9cf1163aaf1f501492b8933e76dafcd5d3656974c4b2c43b18750234c942af75",
+      "retrieved_at": "2026-09-10T12:46:46.505004+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500321.zip",
+      "sha256": "9acf66bbe4f0049e3a3e5ac8c39d990fc90b5afd35a7eabd016ca91fae011847",
+      "retrieved_at": "2026-09-10T12:46:46.648184+00:00"
+    },
+    {
+      "region": "kyushu",
+      "source_url": "https://kouseikyoku.mhlw.go.jp/kyushu/000500320.zip",
+      "sha256": "cf262bc904f5181c04e2572763f2a0720e8dbd70b03312e931767fbcd9f79ef0",
+      "retrieved_at": "2026-09-10T12:46:46.933156+00:00"
+    }
+  ],
+  "consumer_validation": "224517 entities passed wikibase-registry-sync.core.validate; no writes"
+}
