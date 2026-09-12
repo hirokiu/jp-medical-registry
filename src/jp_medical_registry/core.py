@@ -9,6 +9,13 @@ from pathlib import Path
 
 FEE_TYPES = {"医科": "1", "歯科": "3", "薬局": "4"}
 
+def validate_insurance_id(value):
+    """Validate a canonical identifier without coercion or loss of leading zeros."""
+    if (not isinstance(value, str) or not re.fullmatch(r"[0-9]{10}", value)
+            or not 1 <= int(value[:2]) <= 47 or value[2] not in FEE_TYPES.values()):
+        raise ValueError("canonical medical identifier must be a ten-digit string with valid prefecture and fee type")
+    return value
+
 def insurance_id(prefecture, kind, raw_code):
     if not re.fullmatch(r"\d{2}", prefecture, re.ASCII) or not 1 <= int(prefecture) <= 47:
         raise ValueError("prefecture must be 01..47")
@@ -19,9 +26,15 @@ def insurance_id(prefecture, kind, raw_code):
     if not re.fullmatch(r"[0-9,・.\-\s]+", text):
         raise ValueError("ambiguous code; split and review source identifiers first")
     digits = re.sub(r"[^0-9]", "", text)
-    if len(digits) != 7:
-        raise ValueError("regional code must contain exactly seven digits")
-    return prefecture + FEE_TYPES[kind] + digits
+    prefix = prefecture + FEE_TYPES[kind]
+    if len(digits) == 10:
+        if not digits.startswith(prefix):
+            raise ValueError("ten-digit code conflicts with prefecture or fee type")
+        return validate_insurance_id(digits)
+    if len(digits) == 7:
+        # Regional source notation only; never use this value as an entity key.
+        return validate_insurance_id(prefix + digits)
+    raise ValueError("code must contain seven regional or ten national digits; never truncate")
 
 def fetch(url, directory, bureau, period):
     if not url.startswith("https://"):

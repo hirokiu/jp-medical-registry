@@ -1,6 +1,7 @@
 """Conservative matching of preselected Wikidata candidates, not fuzzy auto-linking."""
 import re
 import unicodedata
+from .core import validate_insurance_id
 
 
 def normalized_name(value):
@@ -18,6 +19,7 @@ def assess(record, candidates):
     Candidates must already have been retrieved/reviewed. This function does not
     assert that Wikidata has no additional matches elsewhere.
     """
+    validate_insurance_id(record['insurance_id'])
     assessments = []
     for entity in candidates:
         code_match = record['insurance_id'] in values(entity, 'P13179')
